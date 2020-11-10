@@ -23,7 +23,6 @@ def calculate_force(body, space_objects):
         body.Fx += F*(obj.x-body.x)/r
         body.Fy += F*(obj.y-body.y)/r
 
-
 def move_space_object(body, dt):
     """Перемещает тело в соответствии с действующей на него силой.
 
